@@ -1,0 +1,45 @@
+{
+  "boss": {
+    "name": "hein ploet"
+  },
+  "work": [{"description": "Implement App Hokuspokus without bogus",
+           "dones":  [{"description": "does something great and big"}],
+           "functional": false}],
+  "scrumTeam": {
+    "po": {
+      "name": "kapiten plauper",
+      "skills": []
+    },
+    "sm": {
+      "name": "kleines arschloch",
+      "skills": [
+        {
+          "description": "mediator"
+        }
+      ]
+    },
+    "developmentTeam": [
+      {
+        "name": "bernd brot",
+        "work": [{"description": "essen"}],
+        "skills": []
+      },
+      {
+        "name": "dr haus",
+        "skills": [
+          {
+            "description": "medizin"
+          }
+        ]
+      },
+      {
+        "name": "peter sloterdijk",
+        "skills": [
+          {
+            "description": "blasen"
+          }
+        ]
+      }
+    ]
+  }
+}
