@@ -10,7 +10,7 @@ public class Main {
     Gson gson = new Gson();
 
     public void main() throws IOException {
-        String filePath = "murcsgmbh.json";
+        String filePath = "murcs_gmbh.json";
         String json = new String ( Files.readAllBytes( Paths.get(filePath) ) );
         Company murcs =  gson.fromJson(json, Company.class);
         murcs.scrumTeam.addSprintSchedule();

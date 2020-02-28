@@ -36,7 +36,7 @@ class MainTest {
         */
         Gson gson = new Gson();
 
-        String filePath = "murcsgmbh.json";
+        String filePath = "murcs_gmbh.json";
         String json = null;
         try {
             json = new String ( Files.readAllBytes( Paths.get(filePath) ) );
